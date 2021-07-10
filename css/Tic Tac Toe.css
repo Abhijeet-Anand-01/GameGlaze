@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim';
+}
+
+.background {
+    background-color: #12181B;
+    background: url(../assets/images/tic1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.title {
+    cursor: default;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    width: 20%;
+    margin: 4em auto 1em;
+    background-color:rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    box-shadow: 2px 3px #888888;
+}
+
+.display {
+    cursor: default;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    width: 13%;
+    margin: 1em auto;
+    background-color:rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    box-shadow: 2px 3px #888888;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+    margin-bottom: 3em;
+    background-color:rgba(0, 0, 0, 0.9);
+
+}
+
+.tile {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+
+.playerX {
+    color: #bd2f16;
+}
+
+.playerO {
+    color: #498AFB;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 5em;
+}
+
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    background-color: #FF3860;
+    transition: all 0.8s ease;
+}
+
+#reset:hover {
+    background-color: #498AFB;
+    /* color: #FF3860; */
+}

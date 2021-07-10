@@ -6,6 +6,13 @@ body {
     
 }
 
+/* h4 {
+    position: absolute;
+    left: 40%;
+    color: #06b9a7;
+    background-color: rgba(169, 118, 192, 0.5);
+} */
+
 .panels {
     min-height: 100vh;
     overflow: hidden;
