@@ -1,20 +1,9 @@
-html {
-    box-sizing: border-box;
-    background: #ffc600;
-    font-family: "helvetica neue";
-    font-size: 20px;
-    font-weight: 200;
-    
-}
-
 body {
+    box-sizing: border-box;
     margin: 0;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
+    font-size: 5rem;
+    font-weight: bold;
+    
 }
 
 .panels {
@@ -74,6 +63,7 @@ body {
 
 .panel > *:nth-child(2) {
     transform: translateY(80%);
+    
 }
 
 .panel > *:nth-child(3) {
@@ -111,7 +101,8 @@ body {
 .panel p {
     cursor: default;
     text-transform: uppercase;
-    font-family: "Amatic SC", cursive;
+    font-family: "Amatic SC";
+
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
     font-size: 2em;
 }
@@ -125,18 +116,10 @@ body {
     font-size: 40px;
 }
 
-@media only screen and (max-width: 600px) {
-    .panel p {
-        font-size: 1em;
-    }
-}
-
-
 
   .btn{
-    border: 1px solid #3498db;
+    border: 2px solid #3498db;
     background: none;
-    /* padding: 10px 20px; */
     font-size: 1.4rem;
     font-family: "montserrat";
     cursor: pointer;
@@ -148,10 +131,10 @@ body {
     width: 10rem;
     border-radius: 5%;
   }
-.btn4{
+.btn1{
     color: #fff;
   }
-.btn4:hover{
+.btn1:hover{
     color: #3498db;
   }
   .btn::before{
@@ -164,14 +147,14 @@ body {
     z-index: -1;
     transition: 0.8s;
   }
-.btn4::before{
+.btn1::before{
     bottom: 0;
     border-radius: 50% 50% 0 0;
   }
- .btn4::before{
+ .btn1::before{
     height: 180%;
   }
-.btn4:hover::before{
+.btn1:hover::before{
     height: 0%;
   }
   
