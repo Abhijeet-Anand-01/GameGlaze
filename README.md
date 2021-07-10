@@ -1,5 +1,5 @@
-<h1>Name of the project - </h1>
- <h4>GameGlaze</h4> <hr>
+<h2>Name of the project - </h2>
+ <h3>GameGlaze</h3> <hr>
    
-<h1>About The Project - </h1>
-  <h4>Gameedfkshdjldss</h4> <hr>
+<h2>About The Project - </h2>
+  <h3>Gameedfkshdjldss</h3> <hr>
